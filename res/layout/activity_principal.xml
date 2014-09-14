@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/titleScreen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="Desafios"
+        android:textColor="#333333"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5pt"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="Fibonnaci"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnFibonnaci"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5pt"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="Roboto"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Fibonnaci"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0pt"
+        android:layout_marginLeft="5pt"
+        android:layout_marginTop="5pt"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="Booleano"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnBooleano"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5pt"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="Roboto"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Booleano"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0pt"
+        android:layout_marginLeft="5pt"
+        android:layout_marginTop="5pt"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="Árvore Binária"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnArvore"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5pt"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="Roboto"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Árvore"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+</LinearLayout>

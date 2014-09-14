@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Desafios TETC</string>
+    <string name="title_activity_principal">Desafios TETC</string>
+    <string name="title_activity_fibonacci">Fibonacci</string>
+    <string name="title_activity_pilha">Pilha</string>
+    <string name="title_activity_booleano">Booleano</string>
+
+</resources>

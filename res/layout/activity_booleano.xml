@@ -1,0 +1,142 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#fff"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecione os valores para serem testados:" 
+        android:textSize="15dp"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A" 
+                android:layout_gravity="center"
+                />
+
+            <CheckBox
+                android:id="@+id/ckbA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:layout_gravity="center" />
+        </LinearLayout>
+        
+         <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B" 
+                android:layout_gravity="center"
+                />
+
+            <CheckBox
+                android:id="@+id/ckbB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:layout_gravity="center" />
+        </LinearLayout>
+        
+          <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"  >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C" 
+                android:layout_gravity="center"
+                />
+
+            <CheckBox
+                android:id="@+id/ckbC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:layout_gravity="center" />
+        </LinearLayout>
+        
+           <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D" 
+                android:layout_gravity="center"
+                />
+
+            <CheckBox
+                android:id="@+id/ckbD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCalcularBooleano"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5pt"
+        android:background="@drawable/rounded_corners"
+        android:fontFamily="Roboto"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Calcular"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+    
+    
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saída"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/txvSaidaBooleano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:layout_margin="20dp"        
+        android:text="1"
+        android:textColor="#5C97BF"
+        android:textSize="140dp"
+        android:textStyle="bold"
+        android:fontFamily="Roboto"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_gravity="center" />
+
+</LinearLayout>
